@@ -237,41 +237,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    margin-right: 110px;
+    background-image: url(https://globalgrasshopper.com/wp-content/uploads/2020/10/Sawtooth-mountains.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 25px;;
     }
-
-
-    .hero-container_img img {
-        border-radius: 50%;
-        display: block;
-        margin: 100px auto;
-        width: 40%;
-    }
-
-    .hero-container_img {
-        position:relative;
-        background-image: url(PortfolioPics/Gif-Circle.jpg);
-        background-position: center center;
-        background-size: 47%;
-        background-repeat: no-repeat;
-        width: 50%;
-        animation: rotateAnimation 2s linear;
-    }
-    
-    @keyframes rotateAnimation {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-
 
     .hero-container_copy {
-        width: 50%;
+        width: 100%;
         margin-top: 5%;
         margin-bottom: 5%;
+        text-align: center;
+        
     }
 
 
